@@ -11,12 +11,27 @@
         <div class=""nav">
           <h1>Flashcards</h1>
           <div>
-            <button>New Card</button>
-            <button>Del Card</button>
+            <button onclick="showCreateCardBox()"">New Card</button>
+            <button onclick="delFlashcards()">Del Card</button>
           </div>
         </div>
       </div>
     </header>
+    <div class="container"></div>
+      <div class="'create-box">
+        <h2 style="text-align: center;color: black;
+        ">Create Flashcard</h2>
+        <label for="question">Question</label>
+        <textarea id="question"></textarea>
+        <br>
+        <label for="answer">Answer</label>
+        <textarea id="answer"></textarea>
+        <div>
+          <button>Save</button>
+          <button>Close</button>
+        </div>
+      </div>
+    <script src="script.js"></script>
   </body>
 </html>
 
