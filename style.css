@@ -54,7 +54,7 @@ body {
 }
 
 .container{
-    width: 95%
+    width: 95%;
     margin: auto;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 .create-box{
-    width: 380px
+    width: 380px;
     margin: auto;
     padding: 20px;
     border-radius: 5px;
